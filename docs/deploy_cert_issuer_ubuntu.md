@@ -12,7 +12,7 @@
 
     # If you have a warning:
     # You are using pip version 8.1.1, however version 9.0.3 is available. You should consider upgrading via the 'pip install --upgrade pip' command.
-    # You can run: pip3 install -U pip
+    # You can run: 'pip3 install -U pip'
 
 Activate the environment:
     source ./venv/bin/activate
@@ -55,7 +55,7 @@ Create your conf.ini file (the config file for this application):
 ### Issuer
 Add your certificates to data/unsigned_certs/
 
-Issuer:
+Issue the certificates on the blockchain:
 
     cert-issuer -c conf.ini
 
