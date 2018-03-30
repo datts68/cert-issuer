@@ -1,14 +1,17 @@
-#Deploy cert-issuer on Ubuntu 16.04
+Deploy cert-issuer on Ubuntu 16.04
 ----
 ###Clone the repo and change to the directory:
+
     git clone https://github.com/blockchain-certificates/cert-issuer.git && cd cert-issuer
 
 ----
-###Install requirements
+###Install requirements:
+
     sudo apt install python3-pip python3-dev libssl-dev virtualenv
 
 ----
 ###I recommend using virtualenv to manage your python environments:
+
     pip3 install virtualenv
     virtualenv -p python3 venv
 
@@ -63,7 +66,7 @@ Create your conf.ini file (the config file for this application):
     pip3 install .
 
 ----
-###Issuing
+###Issuer
 Add your certificates to data/unsigned_certs/
 
 Issuer:
