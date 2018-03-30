@@ -45,7 +45,7 @@ Create your conf.ini file (the config file for this application):
     # advanced: uncomment the following line if you're running a bitcoin node
     # bitcoind
 
-**Notes:**
+Notes:
 * The bitcoind option is technically not required in regtest mode. regtest mode only works with a local bitcoin node. The quick start in docker brushed over this detail by installing a regtest-configured bitcoin node in the docker container.
 * The Ethereum option does not support a local (test)node currently. The issuer will broadcast the transaction via the Etherscan API.
 
@@ -53,7 +53,7 @@ Create your conf.ini file (the config file for this application):
     pip3 install .
 
 ### Issuer
-Add your certificates to data/unsigned_certs/
+Add your certificates to data/unsigned_certs/.
 
 Issue the certificates on the blockchain:
 
