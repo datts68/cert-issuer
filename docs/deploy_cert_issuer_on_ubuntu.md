@@ -19,6 +19,7 @@ Activate the environment:
     source ./venv/bin/activate
     
 After you’re finished, deactivate the environment by running:
+
     deactivate
 
 ### Install cert-issuer
