@@ -17,6 +17,9 @@
 Activate the environment:
 
     source ./venv/bin/activate
+    
+After you’re finished, deactivate the environment by running:
+    deactivate
 
 ### Install cert-issuer
 By default, cert-issuer issues to the Bitcoin blockchain. Run the default setup script if this is the mode you want:
