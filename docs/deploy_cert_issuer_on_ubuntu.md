@@ -26,6 +26,8 @@ After you’re finished, deactivate the environment by running:
 By default, cert-issuer issues to the Bitcoin blockchain. Run the default setup script if this is the mode you want:
 
     python3 setup.py install
+    
+If have error: `error: pysha3 1.0.2 is installed but pysha3==1.0b1 is required by {'merkletools'}`, edit file cert-issuer/venv/lib/python3.5/site-packages/merkletools-1.0.2-py3.5.egg/EGG-INFO/requires.txt: Replace `pysha3==1.0b1` to `pysha3>=1.0b1`
 
 To issue to the ethereum blockchain, run the following:
 
